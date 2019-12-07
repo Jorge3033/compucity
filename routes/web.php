@@ -10,14 +10,18 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*
+
 Route::get('/', function () {
     return view('page.index'); 
-});*/
+});
+
+Route::get('/adminTemplate', function () {
+    return view('layouts.adminTemplate'); 
+});
 									//Home Routes 
 ##############################################################################################################
 
-Route::get('/', 'PageController@index')->name('/');
+
 //Muestra la pagina con la consulta de las categorias que se estan seleccionando
 Route::get('/showCategory/{id}', 'PageController@showCategory')->name('showCategory');
 

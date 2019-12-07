@@ -61,7 +61,7 @@
 							Ayuda & Contacto
 						</a>
 
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
+						<a href="/login" class="flex-c-m trans-04 p-lr-25">
 							Mi Cuenta
 						</a>
 
@@ -92,7 +92,7 @@
 								<ul class="sub-menu">
 									<?php
 										foreach ($category as $c) {
-											echo '<a class="stext-107 cl7 hov-cl1 trans-04" href="showCategory/';
+											echo '<a class="stext-107 cl7 hov-cl1 trans-04" href="/showCategory/';
 											echo $c->id;
 											echo '">';
 											echo $c->name;
@@ -104,23 +104,23 @@
 							</li>
 
 							<li>
-								<a href="product.html">Ofertar</a>
+								<a href="">Ofertar</a>
 							</li>
 
 							<li class="label1" data-label1="hot">
-								<a href="shoping-cart.html">Historial</a>
+								<a href="">Historial</a>
 							</li>
 
 							<li>
-								<a href="blog.html">Blog</a>
+								<a href="">Blog</a>
 							</li>
 
 							<li>
-								<a href="about.html">Conocenos</a>
+								<a href="">Conocenos</a>
 							</li>
 
 							<li>
-								<a href="contact.html">Contacto</a>
+								<a href="">Contacto</a>
 							</li>
 						</ul>
 					</div>	
@@ -147,7 +147,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
-				<a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+				<a href=""><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
 			</div>
 
 			<!-- Icon header -->
@@ -211,7 +211,7 @@
 						<?php
 							foreach ($category as $c) {
 								echo '<li >';
-								echo '<a class="stext-107 cl7 hov-cl1 trans-04" href="showCategory/';
+								echo '<a class="stext-107 cl7 hov-cl1 trans-04" href="/showCategory/';
 								echo $c->id;
 								echo '">';
 								echo $c->name;
@@ -226,23 +226,23 @@
 				</li>
 
 				<li>
-					<a href="product.html">Shop</a>
+					<a href="">Shop</a>
 				</li>
 
 				<li>
-					<a href="shoping-cart.html" class="label1 rs1" data-label1="hot">Features</a>
+					<a href="" class="label1 rs1" data-label1="hot">Features</a>
 				</li>
 
 				<li>
-					<a href="blog.html">Blog</a>
+					<a href="">Blog</a>
 				</li>
 
 				<li>
-					<a href="about.html">About</a>
+					<a href="">About</a>
 				</li>
 
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -282,66 +282,19 @@
 			
 			<div class="header-cart-content flex-w js-pscroll">
 				<ul class="header-cart-wrapitem w-full">
-					<li class="header-cart-item flex-w flex-t m-b-12">
-						<div class="header-cart-item-img">
-							<img src="images/item-cart-01.jpg" alt="IMG">
-						</div>
-
-						<div class="header-cart-item-txt p-t-8">
-							<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
-								White Shirt Pleat
-							</a>
-
-							<span class="header-cart-item-info">
-								1 x $19.00
-							</span>
-						</div>
-					</li>
-
-					<li class="header-cart-item flex-w flex-t m-b-12">
-						<div class="header-cart-item-img">
-							<img src="images/item-cart-02.jpg" alt="IMG">
-						</div>
-
-						<div class="header-cart-item-txt p-t-8">
-							<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
-								Converse All Star
-							</a>
-
-							<span class="header-cart-item-info">
-								1 x $39.00
-							</span>
-						</div>
-					</li>
-
-					<li class="header-cart-item flex-w flex-t m-b-12">
-						<div class="header-cart-item-img">
-							<img src="images/item-cart-03.jpg" alt="IMG">
-						</div>
-
-						<div class="header-cart-item-txt p-t-8">
-							<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
-								Nixon Porter Leather
-							</a>
-
-							<span class="header-cart-item-info">
-								1 x $17.00
-							</span>
-						</div>
-					</li>
-				</ul>
+					
 				
 				<div class="w-full">
 					<div class="header-cart-total w-full p-tb-40">
-						Total: $75.00
+						Total: 
 					</div>
 
 					<div class="header-cart-buttons flex-w w-full">
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						<a href="" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
 							View Cart
 						</a>
 
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						<a href="" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
 							Check Out
 						</a>
 					</div>
@@ -378,7 +331,7 @@
 						<?php
 							foreach ($category as $c) {
 								echo '<li class="p-b-10">';
-								echo '<a class="stext-107 cl7 hov-cl1 trans-04" href="showCategory/';
+								echo '<a class="stext-107 cl7 hov-cl1 trans-04" href="/showCategory/';
 								echo $c->id;
 								echo '">';
 								echo $c->name;

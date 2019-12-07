@@ -13,7 +13,7 @@
   <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
   <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
   <link href="{{ asset('css/ruang-admin.min.css')}}" rel="stylesheet">
-  
+   
   
 </head>
 
@@ -29,7 +29,7 @@
       </a>
       <hr class="sidebar-divider my-0">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="#">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Graficas</span></a>
       </li>
@@ -49,13 +49,11 @@
             <a class="collapse-item" href="/reportAdminControl">Admins</a>
             <a class="collapse-item" href="/reportUserControl">Usuarios</a>
             <a class="collapse-item" href="/reportCategoryControl">Categorias</a>
-            <a class="collapse-item" href="/reportProductControl">Productos</a>
-            <a class="collapse-item" href="/reportSaleControl">Ventas</a>
           </div>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="forms.html">
+        <a class="nav-link" href="#">
           <i class="fab fa-fw fa-wpforms"></i>
           <span>Sistema</span> 
         </a>
@@ -73,12 +71,11 @@
             <a class="collapse-item" href="/reportUser">Usuarios</a>
             <a class="collapse-item" href="/reportCategory">Categorias</a>
             <a class="collapse-item" href="/reportProduct">Productos</a>
-            <a class="collapse-item" href="/reportSale">Ventas</a>
           </div>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="ui-colors.html">
+        <a class="nav-link" href="#">
           <i class="fas fa-fw fa-palette"></i>
           <span>home</span>
         </a>
@@ -96,14 +93,14 @@
         <div id="collapsePage" class="collapse" aria-labelledby="headingPage" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Ventas</h6>
-            <a class="collapse-item" href="login.html">En proceso</a>
-            <a class="collapse-item" href="login.html">Realizadas</a>
-            <a class="collapse-item" href="login.html">Canceladas</a>
+            <a class="collapse-item" href="">En proceso</a>
+            <a class="collapse-item" href="">Realizadas</a>
+            <a class="collapse-item" href="">Canceladas</a>
           </div>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="#">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Graficas</span>
         </a>
@@ -291,7 +288,7 @@
                   Activity Log
                 </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="login.html">
+                <a class="dropdown-item" href="">
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                   Logout
                 </a>

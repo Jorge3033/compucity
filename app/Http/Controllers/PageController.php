@@ -21,7 +21,8 @@ class PageController extends Controller
     }
 
     public function showCategory($id){
-    	$consulta=product::all();
+    	$consulta=product::where('categoryId','=',$id)->get();
+
     	$categoria=category::select('name')
     						->where('id','=',$id)->get();
     					
